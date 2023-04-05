@@ -663,7 +663,7 @@ RESPONSE: API Key Error
 **Example request:**
 
 ```javascript
-PUT https://api.domain/api/v1/houses/44/rooms/113/items/426/multipleChoices/49/popupItems/5/updatePrice
+PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/37/rooms/65/items/1864/multipleChoices/28/popupItem/12/updatePrice
 HOST: domain
 Authorization: token
 
@@ -680,16 +680,16 @@ RESPONSE: 200 OK
 {
     "valid": true,
     "data": {
-        "id": 5,
+        "id": 12,
         "name": "Led Strip Lights",
         "description": "Led Strip Lights for under wall units",
-        "multiple_choice_id": 49,
+        "multiple_choice_id": 28,
         "price": 49900,
-        "customer_input_price": 909090,
-        "overlay_image_id": 120496,
-        "thumbnail_image_id": 120495,
-        "created_at": "2023-02-09T16:03:35.000000Z",
-        "updated_at": "2023-04-04T08:43:51.000000Z"
+        "customer_input_price": -1,
+        "overlay_image_id": 122751,
+        "thumbnail_image_id": 122750,
+        "created_at": "2023-02-14T12:07:09.000000Z",
+        "updated_at": "2023-04-05T15:27:18.000000Z"
     }
 }
 ```
