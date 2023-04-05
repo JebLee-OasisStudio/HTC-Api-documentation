@@ -18,8 +18,8 @@
 **Example request:**
 
 ```javascript
-GET /api/v1/houses
-Host: domain
+GET https://htc.eyesiteview.uk/htcpublic/api/v1/houses
+Host: [domain](https://htc.eyesiteview.uk/htcpublic)
 Content-Type: application/json
 Authorization: your-api-key
 ```
@@ -141,8 +141,8 @@ None
 **Example request:**
 
 ```javascript
-GET /api/v1/house/44/itemChoices
-Host: domain
+GET https://htc.eyesiteview.uk/htcpublic/api/v1/house/104/itemChoices
+Host: [domain](https://htc.eyesiteview.uk/htcpublic)
 Content-Type: application/json
 Authorization: your-api-key
 ```
@@ -324,8 +324,8 @@ RESPONSE: API Key Error
 
 ```javascript
 
-PUT https://api.domain/api/v1/houses/44/productBundles/6/updatePrice
-HOST: domain
+PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/104/productBundles/67/updatePrice
+HOST: [domain](https://htc.eyesiteview.uk/htcpublic)
 Content-Type: application/json
 Authorization: your-api-key
 
@@ -409,8 +409,8 @@ RESPONSE: API Key Error
 **Example request:**
 
 ```javascript
-PUT https://api.domain/api/v1/houses/44/rooms/113/items/426/categoryCollections/139/categories/398/updatePrice
-HOST: domain
+PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/104/rooms/603/items/3469/categoryCollections/1613/categories/5318/updatePrice
+HOST: [domain](https://htc.eyesiteview.uk/htcpublic)
 Content-Type: application/json
 Authorization: token
 
@@ -456,104 +456,6 @@ RESPONSE: API Key Error
     "message": "Unauthorized"
 }
 ```
-
----
-
-# **Get all item choices belong to a category**
-
-**Endpoint:** `/houses/{houseId}/rooms/{roomId}/items/{itemId}/categories/{categoryId}/itemChoices`
-
-**Description:** Get all item choices belong to a category (e.g. Premium Whole Bathroom)
-
-**Example image:**
-None
-
-**Method:** `GET`
-
-**Path parameters:**
-
-| Name         | Type      | Description |
-| ------------ | --------- | ----------- |
-| `houseId`    | `integer` | House ID    |
-| `roomId`     | `integer` | Room ID     |
-| `itemId`     | `integer` | Item ID     |
-| `categoryId` | `integer` | Category ID |
-
-**Query parameters:** None
-
-**Body parameters:** None
-
-**Example request:**
-
-```javascript
-GET https://api.domain/api/v1/houses/44/rooms/113/items/426/categories/398/itemChoices
-HOST: domain
-Content-Type: application/json
-Authorization: token
-```
-
-**Example response:**
-
-RESPONSE: 200 OK
-
-```json
-{
-    "valid": true,
-    "data": [
-        {
-            "house_id": "44",
-            "room_id": "113",
-            "item_id": "426",
-            "category_id": "399",
-            "id": 6334,
-            "name": "Image White",
-            "description": null,
-            "price": 666666,
-            "customer_input_price": 666666
-        },
-        {
-            "house_id": "44",
-            "room_id": "113",
-            "item_id": "426",
-            "category_id": "399",
-            "id": 6338,
-            "name": "Image Silver",
-            "description": null,
-            "price": 666666,
-            "customer_input_price": 666666
-        },
-        {
-            "house_id": "44",
-            "room_id": "113",
-            "item_id": "426",
-            "category_id": "399",
-            "id": 6335,
-            "name": "Indic",
-            "description": null,
-            "price": 666666,
-            "customer_input_price": 666666
-        }
-    ]
-}
-```
-
-RESPONSE: 404 Not Found
-
-```json
-{
-    "valid": false,
-    "error": "No query results for model "
-}
-```
-
-RESPONSE: API Key Error
-
-```json
-{
-    "message": "Unauthorized"
-}
-```
-
 ---
 
 # **Update multiple choice options pricing**
@@ -589,8 +491,8 @@ RESPONSE: API Key Error
 **Example request:**
 
 ```javascript
-PUT https://api.domain/api/v1/houses/44/rooms/113/items/426/multipleChoices/49/multipleChoiceOptions/89/updatePrice
-HOST: domain
+PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/104/rooms/601/items/3444/multipleChoices/114/multipleChoiceOptions/216/updatePrice
+HOST: [domain](https://htc.eyesiteview.uk/htcpublic)
 Content-Type: application/json
 Authorization: token
 
@@ -670,8 +572,8 @@ RESPONSE: API Key Error
 **Example request:**
 
 ```javascript
-PUT https://api.domain/api/v1/houses/44/rooms/113/items/426/itemChoices/49/updatePrice
-HOST: domain
+PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/104/rooms/601/items/3445/itemChoices/77178/updatePrice
+HOST: [domain](https://htc.eyesiteview.uk/htcpublic)
 Authorization: token
 
 {
