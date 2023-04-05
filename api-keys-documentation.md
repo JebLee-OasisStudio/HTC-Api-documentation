@@ -154,8 +154,8 @@ RESPONSE: 200 OK
 ```json
 {
     "data": {
-        "houseId": 44,
-        "house_name": "Stratford_brid",
+         "houseId": 104,
+        "house_name": "Testing",
         "productBundles": [
             {
                 "productBundleId": 6,
