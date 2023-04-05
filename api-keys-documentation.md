@@ -638,7 +638,7 @@ RESPONSE: API Key Error
 
 **Example image:**
 
-<img src="https://github.com/JebLee-OasisStudio/HTC-Api-documentation/blob/main/pupup_item.PNG?raw=true" alt="pupup_item.png" style="zoom: 70%;" />
+<img src="https://github.com/JebLee-OasisStudio/HTC-Api-documentation/blob/main/Pop.PNG?raw=true" alt="pupup_item.png" style="zoom: 70%;" />
 
 **Method:** `PUT`
 
