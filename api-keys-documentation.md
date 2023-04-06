@@ -424,7 +424,7 @@ Content-Type: application/json
 Authorization: token
 
 {
-    "price": 100
+    "customer_input_price": 100
 }
 ```
 
