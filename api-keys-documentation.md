@@ -127,7 +127,7 @@ RESPONSE: 200 OK
 
 **Endpoint:** `/api/v1/house/{houseId}/itemChoices`
 
-**Description:** Get all items
+**Description:** Get all items that contain price
 
 **Method:** `GET`
 
