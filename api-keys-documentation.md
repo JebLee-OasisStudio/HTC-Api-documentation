@@ -487,7 +487,7 @@ RESPONSE: API Key Error
 
 **Endpoint:** `/api/v1/houses/{houseId}/rooms/{roomId}/items/{itemId}/categoryCollections/{categoryCollectionId}/categories/{categoryId}/updatePrice`
 
-**Description:** Update Category pricing (e.g. Premium Whole Bathroom)
+**Description:** Update Category pricing (e.g. Premium Whole Bathroom), onec you updated the price of category, all the price of item choices belong to the category will also changed.
 
 **Example image:**
 
