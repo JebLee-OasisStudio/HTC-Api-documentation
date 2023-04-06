@@ -161,6 +161,7 @@ RESPONSE: 200 OK
                 "productBundleId": 6,
                 "productBundle_name": "The AEG Convenience Package",
                 "productBundle_description": "This convenience package upgrades your standard inclusive Zanussi appliances to the AEG equivalent. Items are not available individually for upgrade.",
+                "price": 390430,
                 "customer_input_price": 999999
             }
         ],
@@ -175,6 +176,7 @@ RESPONSE: 200 OK
                 "categoryId": 397,
                 "category_name": "Standard",
                 "category_description": null,
+                "price": 390430,
                 "customer_input_price": 0
             },
             {
@@ -187,6 +189,7 @@ RESPONSE: 200 OK
                 "categoryId": 398,
                 "category_name": "Premium Half",
                 "category_description": null,
+                "price": 0,
                 "customer_input_price": 55555
             },
             {
@@ -199,6 +202,7 @@ RESPONSE: 200 OK
                 "categoryId": 399,
                 "category_name": "Premium Whole Bathroom",
                 "category_description": null,
+                "price": 390430,
                 "customer_input_price": 666666
             }
         ],
@@ -213,6 +217,7 @@ RESPONSE: 200 OK
                 "popupItemId": 5,
                 "popupItem_name": "Led Strip Lights",
                 "popupItem_description": "Led Strip Lights for under wall units",
+                "price": 390430,
                 "customer_input_price": 55555
             }
         ],
@@ -227,6 +232,7 @@ RESPONSE: 200 OK
                 "multipleChoiceOptionId": 89,
                 "multipleChoiceOption_name": "Yes",
                 "multipleChoiceOption_description": null,
+                "price": 390430,
                 "customer_input_price": 999999
             },
             {
@@ -239,6 +245,7 @@ RESPONSE: 200 OK
                 "multipleChoiceOptionId": 90,
                 "multipleChoiceOption_name": "No",
                 "multipleChoiceOption_description": null,
+                "price": 390430,
                 "customer_input_price": null
             }
         ],
@@ -251,6 +258,7 @@ RESPONSE: 200 OK
                 "itemChoiceId": 58961,
                 "itemChoice_name": "HC357",
                 "itemChoice_description": "Flat chrome handle",
+                "price": 390430,
                 "customer_input_price": null
             },
             {
@@ -271,6 +279,7 @@ RESPONSE: 200 OK
                 "itemChoiceId": 58963,
                 "itemChoice_name": "HC120",
                 "itemChoice_description": "Flat chrome handle",
+                "price": 390430,
                 "customer_input_price": null
             }
         ]
