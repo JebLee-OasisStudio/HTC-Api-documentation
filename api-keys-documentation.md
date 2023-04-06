@@ -5,7 +5,7 @@
 ## Introduction
 
 
-# **Get All Houses**
+## **Get All Houses**
 
 **Endpoint:** `/api/v1/houses`
 
@@ -120,7 +120,7 @@ RESPONSE: 200 OK
 }
 ```
 
-# **Get house info**
+## **Get house info**
 
 **Endpoint:** `/api/v1/house/{houseId}/itemChoices`
 
@@ -310,7 +310,7 @@ RESPONSE: API Key Error
 
 ---
 
-# **Update Product Bundle pricing**
+## **Update Product Bundle pricing**
 
 **Endpoint:** `/api/v1/houses/{houseId}/productBundles/{productBundleId}/updatePrice`
 
@@ -389,7 +389,7 @@ RESPONSE: API Key Error
 
 ---
 
-# **Update Category pricing**
+## **Update Category pricing**
 
 **Endpoint:** `/api/v1/houses/{houseId}/rooms/{roomId}/items/{itemId}/categoryCollections/{categoryCollectionId}/categories/{categoryId}/updatePrice`
 
@@ -471,7 +471,7 @@ RESPONSE: API Key Error
 ```
 ---
 
-# **Update multiple choice options pricing**
+## **Update multiple choice options pricing**
 
 **Endpoint:** `/api/v1/houses/{houseId}/rooms/{roomId}/items/{itemId}/multipleChoices/{multipleChoiceId}/multipleChoiceOptions/{multipleChoiceOptionId}/updatePrice`
 
@@ -553,7 +553,7 @@ RESPONSE: API Key Error
 
 ---
 
-# **Update Item Choice pricing**
+## **Update Item Choice pricing**
 
 **Endpoint:** `/api/v1/houses/{houseId}/rooms/{roomId}/items/{itemId}/itemChoices/{itemChoiceId}/updatePrice`
 
@@ -643,7 +643,7 @@ RESPONSE: API Key Error
 
 ---
 
-# **Update popup item pricing**
+## **Update popup item pricing**
 
 **Endpoint:** `/api/v1/houses/{houseId}/rooms/{roomId}/items/{itemId}/multipleChoices/multipleChoiceId/popupItems/{popupItemId}/updatePrice`
 
