@@ -504,7 +504,7 @@ RESPONSE: API Key Error
 **Example request:**
 
 ```javascript
-PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/104/rooms/601/items/3444/multipleChoices/114/multipleChoiceOptions/216/updatePrice
+PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/109/rooms/637/items/3703/multipleChoices/128/multipleChoiceOptions/243/updatePrice
 HOST: [domain](https://htc.eyesiteview.uk/htcpublic)
 Content-Type: application/json
 Authorization: your-api-key
@@ -522,14 +522,14 @@ RESPONSE: 200 OK
 {
     "valid": true,
     "data": {
-        "id": 89,
+        "id": 243,
         "name": "Yes",
         "description": null,
-        "price": 131535,
-        "customer_input_price": 8888,
-        "multiple_choice_id": 49,
-        "created_at": "2022-12-22T14:38:55.000000Z",
-        "updated_at": "2023-03-30T10:49:34.000000Z"
+        "price": 888888,
+        "customer_input_price": 888888,
+        "multiple_choice_id": 128,
+        "created_at": "2023-04-06T09:02:10.000000Z",
+        "updated_at": "2023-04-06T10:14:41.000000Z"
     }
 }
 ```
