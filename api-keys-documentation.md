@@ -421,7 +421,7 @@ RESPONSE: API Key Error
 PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/104/rooms/603/items/3469/categoryCollections/1613/categories/5318/updatePrice
 HOST: [domain](https://htc.eyesiteview.uk/htcpublic)
 Content-Type: application/json
-Authorization: token
+Authorization: your-api-key
 
 {
     "customer_input_price": 100
@@ -503,7 +503,7 @@ RESPONSE: API Key Error
 PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/104/rooms/601/items/3444/multipleChoices/114/multipleChoiceOptions/216/updatePrice
 HOST: [domain](https://htc.eyesiteview.uk/htcpublic)
 Content-Type: application/json
-Authorization: token
+Authorization: your-api-key
 
 {
     "customer_input_price": 100
@@ -583,7 +583,7 @@ RESPONSE: API Key Error
 ```javascript
 PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/104/rooms/601/items/3445/itemChoices/77178/updatePrice
 HOST: [domain](https://htc.eyesiteview.uk/htcpublic)
-Authorization: token
+Authorization: your-api-key
 
 {
     "customer_input_price": 100
@@ -674,7 +674,7 @@ RESPONSE: API Key Error
 ```javascript
 PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/37/rooms/65/items/1864/multipleChoices/28/popupItem/12/updatePrice
 HOST: domain
-Authorization: token
+Authorization: your-api-key
 
 {
     "customer_input_price": 100
