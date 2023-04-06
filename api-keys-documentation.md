@@ -673,7 +673,7 @@ RESPONSE: API Key Error
 
 ```javascript
 PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/37/rooms/65/items/1864/multipleChoices/28/popupItem/12/updatePrice
-HOST: domain
+HOST: [domain](https://htc.eyesiteview.uk/htcpublic)
 Authorization: your-api-key
 
 {
