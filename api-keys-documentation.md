@@ -1,6 +1,10 @@
 [domain]: https://www.domain/.uk
 [token]: your-api-key
 
+
+## Introduction
+
+
 # **Get All Houses**
 
 **Endpoint:** `/api/v1/houses`
