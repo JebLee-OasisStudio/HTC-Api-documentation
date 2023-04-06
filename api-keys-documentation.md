@@ -337,7 +337,7 @@ RESPONSE: API Key Error
 
 ```javascript
 
-PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/104/productBundles/67/updatePrice
+PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/109/productBundles/72/updatePrice
 HOST: [domain](https://htc.eyesiteview.uk/htcpublic)
 Content-Type: application/json
 Authorization: your-api-key
@@ -356,15 +356,15 @@ RESPONSE: 200 OK
     "valid": true,
     "data": [
         {
-            "id": 6,
+            "id": 72,
             "name": "The AEG Convenience Package",
             "description": "This convenience package upgrades your standard inclusive Zanussi appliances to the AEG equivalent. Items are not available individually for upgrade.",
-            "rrp": 31392,
-            "customer_input_price": 6699,
+            "rrp": 8989898,
+            "customer_input_price": 8989898,
             "discount": 0,
-            "house_id": 44,
-            "updated_at": "2023-03-30T09:43:09.000000Z",
-            "created_at": "2022-07-22T13:24:30.000000Z"
+            "house_id": 109,
+            "updated_at": "2023-04-06T13:05:52.000000Z",
+            "created_at": "2023-04-06T08:57:29.000000Z"
         }
     ]
 }
@@ -422,7 +422,7 @@ RESPONSE: API Key Error
 **Example request:**
 
 ```javascript
-PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/104/rooms/603/items/3469/categoryCollections/1613/categories/5318/updatePrice
+PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/109/rooms/638/items/3719/categoryCollections/1705/categories/5640/updatePrice
 HOST: [domain](https://htc.eyesiteview.uk/htcpublic)
 Content-Type: application/json
 Authorization: your-api-key
@@ -440,14 +440,14 @@ RESPONSE: 200 OK
 {
     "valid": true,
     "data": {
-        "id": 397,
+        "id": 5640,
         "name": "Standard",
         "description": null,
-        "category_collection_id": 139,
-        "price": 0,
-        "customer_input_price": 112233,
-        "created_at": "2022-07-22T13:24:31.000000Z",
-        "updated_at": "2023-03-30T10:41:05.000000Z",
+        "category_collection_id": 1705,
+        "price": 333333,
+        "customer_input_price": 333333,
+        "created_at": "2023-04-06T08:57:30.000000Z",
+        "updated_at": "2023-04-06T13:07:04.000000Z",
         "order_index": 0
     }
 }
@@ -525,11 +525,11 @@ RESPONSE: 200 OK
         "id": 243,
         "name": "Yes",
         "description": null,
-        "price": 888888,
-        "customer_input_price": 888888,
+        "price": 798979,
+        "customer_input_price": 798979,
         "multiple_choice_id": 128,
         "created_at": "2023-04-06T09:02:10.000000Z",
-        "updated_at": "2023-04-06T10:14:41.000000Z"
+        "updated_at": "2023-04-06T13:07:23.000000Z"
     }
 }
 ```
@@ -585,7 +585,7 @@ RESPONSE: API Key Error
 **Example request:**
 
 ```javascript
-PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/104/rooms/601/items/3445/itemChoices/77178/updatePrice
+PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/109/rooms/637/items/3704/itemChoices/82217/updatePrice
 HOST: [domain](https://htc.eyesiteview.uk/htcpublic)
 Authorization: your-api-key
 
@@ -602,24 +602,24 @@ RESPONSE: 200 OK
 {
     "valid": true,
     "data": {
-        "id": 58961,
+        "id": 82217,
         "name": "HC357",
         "description": "Flat chrome handle",
         "reference": "6",
-        "price": 0,
-        "customer_input_price": 100,
-        "thumbnail_image_id": 91004,
-        "overlay_image_id": 91340,
-        "item_id": 2609,
-        "carousel_id": 1537,
+        "price": 9888,
+        "customer_input_price": 9888,
+        "thumbnail_image_id": 147192,
+        "overlay_image_id": 79763,
+        "item_id": 3704,
+        "carousel_id": 2298,
         "most_popular": 0,
         "toggle_slider_id": null,
         "product_bundle_id": null,
         "disabled": 0,
         "has_conditioned_choices": 0,
         "gallery_id": null,
-        "created_at": "2022-12-22T14:13:33.000000Z",
-        "updated_at": "2023-03-30T10:55:10.000000Z"
+        "created_at": "2023-04-06T08:57:29.000000Z",
+        "updated_at": "2023-04-06T13:13:49.000000Z"
     }
 }
 ```
@@ -676,7 +676,7 @@ RESPONSE: API Key Error
 **Example request:**
 
 ```javascript
-PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/37/rooms/65/items/1864/multipleChoices/28/popupItem/12/updatePrice
+PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/109/rooms/637/items/3703/multipleChoices/128/popupItem/49/updatePrice
 HOST: [domain](https://htc.eyesiteview.uk/htcpublic)
 Authorization: your-api-key
 
@@ -693,16 +693,16 @@ RESPONSE: 200 OK
 {
     "valid": true,
     "data": {
-        "id": 12,
+        "id": 49,
         "name": "Led Strip Lights",
         "description": "Led Strip Lights for under wall units",
-        "multiple_choice_id": 28,
-        "price": 49900,
-        "customer_input_price": -1,
-        "overlay_image_id": 122751,
-        "thumbnail_image_id": 122750,
-        "created_at": "2023-02-14T12:07:09.000000Z",
-        "updated_at": "2023-04-05T15:27:18.000000Z"
+        "multiple_choice_id": 128,
+        "price": 99999,
+        "customer_input_price": 99999,
+        "overlay_image_id": 148179,
+        "thumbnail_image_id": 148180,
+        "created_at": "2023-04-06T09:10:27.000000Z",
+        "updated_at": "2023-04-06T13:13:56.000000Z"
     }
 }
 ```
