@@ -417,7 +417,7 @@ RESPONSE: API Key Error
 
 | Name    | Type      | Description |
 | ------- | --------- | ----------- |
-| `price` | `integer` | Item price  |
+| `customer_input_price` | `integer` | Item price  |
 
 **Example request:**
 
@@ -499,7 +499,7 @@ RESPONSE: API Key Error
 
 | Name    | Type      | Description |
 | ------- | --------- | ----------- |
-| `price` | `integer` | Item price  |
+| `customer_input_price` | `integer` | Item price  |
 
 **Example request:**
 
@@ -580,7 +580,7 @@ RESPONSE: API Key Error
 
 | Name    | Type      | Description |
 | ------- | --------- | ----------- |
-| `price` | `integer` | Item price  |
+| `customer_input_price` | `integer` | Item price  |
 
 **Example request:**
 
@@ -671,7 +671,7 @@ RESPONSE: API Key Error
 
 | Name    | Type      | Description |
 | ------- | --------- | ----------- |
-| `price` | `integer` | Item price  |
+| `customer_input_price` | `integer` | Item price  |
 
 **Example request:**
 
