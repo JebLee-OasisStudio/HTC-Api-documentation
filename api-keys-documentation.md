@@ -157,133 +157,224 @@ RESPONSE: 200 OK
 
 ```json
 {
+    "valid": true,
     "data": {
-         "houseId": 104,
+        "houseId": 109,
         "house_name": "Testing",
         "productBundles": [
             {
-                "productBundleId": 6,
+                "productBundleId": 72,
                 "productBundle_name": "The AEG Convenience Package",
                 "productBundle_description": "This convenience package upgrades your standard inclusive Zanussi appliances to the AEG equivalent. Items are not available individually for upgrade.",
-                "price": 390430,
-                "customer_input_price": 999999
+                "price": 31392,
+                "customer_input_price": null
             }
         ],
         "categories": [
             {
-                "roomId": 113,
+                "roomId": 638,
                 "room_name": "Bathroom",
-                "itemId": 426,
+                "itemId": 3719,
                 "item_name": "Tiles",
-                "categoryCollectionId": 139,
+                "categoryCollectionId": 1705,
                 "categoryCollection_name": "Tile Layout",
-                "categoryId": 397,
+                "categoryId": 5640,
                 "category_name": "Standard",
                 "category_description": null,
-                "price": 390430,
-                "customer_input_price": 0
+                "price": 0,
+                "customer_input_price": null
             },
             {
-                "roomId": 113,
+                "roomId": 638,
                 "room_name": "Bathroom",
-                "itemId": 426,
+                "itemId": 3719,
                 "item_name": "Tiles",
-                "categoryCollectionId": 139,
+                "categoryCollectionId": 1705,
                 "categoryCollection_name": "Tile Layout",
-                "categoryId": 398,
+                "categoryId": 5641,
                 "category_name": "Premium Half",
                 "category_description": null,
-                "price": 0,
-                "customer_input_price": 55555
+                "price": 48748,
+                "customer_input_price": null
             },
             {
-                "roomId": 113,
+                "roomId": 638,
                 "room_name": "Bathroom",
-                "itemId": 426,
+                "itemId": 3719,
                 "item_name": "Tiles",
-                "categoryCollectionId": 139,
+                "categoryCollectionId": 1705,
                 "categoryCollection_name": "Tile Layout",
-                "categoryId": 399,
+                "categoryId": 5642,
                 "category_name": "Premium Whole Bathroom",
                 "category_description": null,
-                "price": 390430,
-                "customer_input_price": 666666
+                "price": 97496,
+                "customer_input_price": null
+            },
+            {
+                "roomId": 639,
+                "room_name": "En Suite",
+                "itemId": 3728,
+                "item_name": "Tiles",
+                "categoryCollectionId": 1707,
+                "categoryCollection_name": "Tile Layout",
+                "categoryId": 5645,
+                "category_name": "Standard",
+                "category_description": null,
+                "price": 0,
+                "customer_input_price": null
+            },
+            {
+                "roomId": 639,
+                "room_name": "En Suite",
+                "itemId": 3728,
+                "item_name": "Tiles",
+                "categoryCollectionId": 1707,
+                "categoryCollection_name": "Tile Layout",
+                "categoryId": 5646,
+                "category_name": "Premium Half",
+                "category_description": null,
+                "price": 48748,
+                "customer_input_price": null
+            },
+            {
+                "roomId": 639,
+                "room_name": "En Suite",
+                "itemId": 3728,
+                "item_name": "Tiles",
+                "categoryCollectionId": 1707,
+                "categoryCollection_name": "Tile Layout",
+                "categoryId": 5647,
+                "category_name": "Premium Whole Bathroom",
+                "category_description": null,
+                "price": 109683,
+                "customer_input_price": null
+            },
+            {
+                "roomId": 640,
+                "room_name": "Cloaks",
+                "itemId": 3735,
+                "item_name": "Tiles",
+                "categoryCollectionId": 1709,
+                "categoryCollection_name": "Tile Layout",
+                "categoryId": 5650,
+                "category_name": "Standard",
+                "category_description": null,
+                "price": 0,
+                "customer_input_price": null
+            },
+            {
+                "roomId": 640,
+                "room_name": "Cloaks",
+                "itemId": 3735,
+                "item_name": "Tiles",
+                "categoryCollectionId": 1709,
+                "categoryCollection_name": "Tile Layout",
+                "categoryId": 5651,
+                "category_name": "Premium Half",
+                "category_description": null,
+                "price": 24374,
+                "customer_input_price": null
+            },
+            {
+                "roomId": 640,
+                "room_name": "Cloaks",
+                "itemId": 3735,
+                "item_name": "Tiles",
+                "categoryCollectionId": 1709,
+                "categoryCollection_name": "Tile Layout",
+                "categoryId": 5652,
+                "category_name": "Premium Whole Bathroom",
+                "category_description": null,
+                "price": 97496,
+                "customer_input_price": null
             }
         ],
         "popupItems": [
             {
-                "roomId": 496,
+                "roomId": 637,
                 "room_name": "Kitchen",
-                "itemId": 2672,
+                "itemId": 3703,
                 "item_name": "Cupboards",
-                "multipleChoiceId": 49,
+                "multipleChoiceId": 128,
                 "multipleChoice_name": "Wall Units",
-                "popupItemId": 5,
+                "popupItemId": 49,
                 "popupItem_name": "Led Strip Lights",
                 "popupItem_description": "Led Strip Lights for under wall units",
-                "price": 390430,
-                "customer_input_price": 55555
+                "price": 49900,
+                "customer_input_price": null
             }
         ],
         "multipleChoiceOptions": [
             {
-                "roomId": 496,
+                "roomId": 637,
                 "room_name": "Kitchen",
-                "itemId": 2672,
+                "itemId": 3703,
                 "item_name": "Cupboards",
-                "multipleChoiceId": 49,
+                "multipleChoiceId": 128,
                 "multipleChoice_name": "Wall Units",
-                "multipleChoiceOptionId": 89,
+                "multipleChoiceOptionId": 243,
                 "multipleChoiceOption_name": "Yes",
                 "multipleChoiceOption_description": null,
-                "price": 390430,
-                "customer_input_price": 999999
+                "price": 125232,
+                "customer_input_price": null
             },
             {
-                "roomId": 496,
+                "roomId": 637,
                 "room_name": "Kitchen",
-                "itemId": 2672,
+                "itemId": 3703,
                 "item_name": "Cupboards",
-                "multipleChoiceId": 49,
+                "multipleChoiceId": 128,
                 "multipleChoice_name": "Wall Units",
-                "multipleChoiceOptionId": 90,
+                "multipleChoiceOptionId": 244,
                 "multipleChoiceOption_name": "No",
                 "multipleChoiceOption_description": null,
-                "price": 390430,
+                "price": null,
                 "customer_input_price": null
             }
         ],
         "itemChoices": [
             {
-                "roomId": 496,
+                "roomId": 637,
                 "room_name": "Kitchen",
-                "itemId": 2609,
+                "itemId": 3704,
                 "item_name": "Handles",
-                "itemChoiceId": 58961,
+                "itemChoiceId": 82217,
                 "itemChoice_name": "HC357",
                 "itemChoice_description": "Flat chrome handle",
-                "price": 390430,
+                "price": 0,
                 "customer_input_price": null
             },
             {
-                "roomId": 496,
+                "roomId": 637,
                 "room_name": "Kitchen",
-                "itemId": 2609,
+                "itemId": 3704,
                 "item_name": "Handles",
-                "itemChoiceId": 58962,
+                "itemChoiceId": 82218,
                 "itemChoice_name": "HC900 & HC905",
-                "itemChoice_description": "Flat chrome handle",
+                "itemChoice_description": "Small Round Knob (Cupboards) & Brushed Cup (Drawers)",
+                "price": 0,
                 "customer_input_price": null
             },
             {
-                "roomId": 496,
+                "roomId": 637,
                 "room_name": "Kitchen",
-                "itemId": 2609,
+                "itemId": 3704,
                 "item_name": "Handles",
-                "itemChoiceId": 58963,
+                "itemChoiceId": 82219,
                 "itemChoice_name": "HC120",
-                "itemChoice_description": "Flat chrome handle",
-                "price": 390430,
+                "itemChoice_description": "Gold Long bar handle",
+                "price": 0,
+                "customer_input_price": null
+            },
+            {
+                "roomId": 637,
+                "room_name": "Kitchen",
+                "itemId": 3704,
+                "item_name": "Handles",
+                "itemChoiceId": 82220,
+                "itemChoice_name": "HC003",
+                "itemChoice_description": "Silver curved handle",
+                "price": 0,
                 "customer_input_price": null
             }
         ]
