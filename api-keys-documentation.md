@@ -416,7 +416,11 @@ RESPONSE: API Key Error
 
 **Method:** `PUT`
 
-**Path parameters:** None
+**Path parameters:** 
+| Name      | Type      | Description |
+| --------- | --------- | ----------- |
+| `houseId` | `interge` | House ID    |
+| `productBundleId` | `interge` | Product Bundle Id|
 
 **Query parameters:** None
 
