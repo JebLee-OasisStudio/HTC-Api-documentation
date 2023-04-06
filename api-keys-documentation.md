@@ -145,7 +145,7 @@ None
 **Example request:**
 
 ```javascript
-GET https://htc.eyesiteview.uk/htcpublic/api/v1/house/104/itemChoices
+GET https://htc.eyesiteview.uk/htcpublic/api/v1/house/109/itemChoices
 Host: [domain](https://htc.eyesiteview.uk/htcpublic)
 Content-Type: application/json
 Authorization: your-api-key
