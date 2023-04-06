@@ -339,7 +339,7 @@ Content-Type: application/json
 Authorization: your-api-key
 
 {
-    "price": 100
+    "customer_input_price": 100
 }
 ```
 
@@ -506,7 +506,7 @@ Content-Type: application/json
 Authorization: token
 
 {
-    "price": 100
+    "customer_input_price": 100
 }
 ```
 
@@ -586,7 +586,7 @@ HOST: [domain](https://htc.eyesiteview.uk/htcpublic)
 Authorization: token
 
 {
-    "price": 100
+    "customer_input_price": 100
 }
 ```
 
@@ -677,7 +677,7 @@ HOST: domain
 Authorization: token
 
 {
-    "price": 100
+    "customer_input_price": 100
 }
 ```
 
