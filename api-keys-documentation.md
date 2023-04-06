@@ -119,7 +119,7 @@ RESPONSE: 200 OK
     ]
 }
 ```
-
+---
 ## **Get house info**
 
 **Endpoint:** `/api/v1/house/{houseId}/itemChoices`
