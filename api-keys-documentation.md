@@ -573,7 +573,7 @@ RESPONSE: API Key Error
 
 **Endpoint:** `/api/v1/houses/{houseId}/rooms/{roomId}/items/{itemId}/multipleChoices/{multipleChoiceId}/multipleChoiceOptions/{multipleChoiceOptionId}/updatePrice`
 
-**Description:** Update multiple choice options pricing (e.g the AEG convenience package)
+**Description:** Update multiple choice options pricing (e.g Wall Unit)
 
 **Example image:**
 
