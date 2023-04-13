@@ -8,6 +8,8 @@
 
 If you encounter any issues, please do not hesitate to create an issue in our [GitHub repository](https://github.com/JebLee-OasisStudio/HTC-Api-documentation/blob/main/api-keys-documentation.md) or to contact the maintainer for further assistance.
 
+!Notice: If the customer_input_price is null or lower than 0(e.g -1), it will display the default price.
+
 ## **Get All Houses**
 
 **Endpoint:** `/api/v1/houses`
