@@ -4,7 +4,7 @@
 
 ## Introduction
 
-** NOTE:** Please put your API key into request header
+**NOTE:** Please put your API key into request header
 
 If you encounter any issues, please do not hesitate to create an issue in our [GitHub repository](https://github.com/JebLee-OasisStudio/HTC-Api-documentation/blob/main/api-keys-documentation.md) or to contact the maintainer for further assistance.
 
