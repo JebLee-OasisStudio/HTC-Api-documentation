@@ -745,7 +745,7 @@ RESPONSE: API Key Error
 
 ## **Update popup item pricing**
 
-**Endpoint:** `/api/v1/houses/{houseId}/rooms/{roomId}/items/{itemId}/multipleChoices/{multipleChoiceId}/popupItem/{popupItemId}/updatePrice`
+**Endpoint:** `/api/v1/houses/{houseId}/rooms/{roomId}/items/{itemId}/multipleChoices/{multipleChoiceId}/popupItems/{popupItemId}/updatePrice`
 
 **Description:** Update popup item pricing (currnetly only used for the "Led Strip Lighting")
 
@@ -776,7 +776,7 @@ RESPONSE: API Key Error
 **Example request:**
 
 ```javascript
-PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/109/rooms/637/items/3703/multipleChoices/128/popupItem/49/updatePrice
+PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/109/rooms/637/items/3703/multipleChoices/128/popupItems/49/updatePrice
 HOST: [domain](https://htc.eyesiteview.uk/htcpublic)
 Authorization: your-api-key
 
