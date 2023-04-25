@@ -745,7 +745,7 @@ RESPONSE: API Key Error
 
 ## **Update popup item pricing**
 
-**Endpoint:** `/api/v1/houses/{houseId}/rooms/{roomId}/items/{itemId}/multipleChoices/multipleChoiceId/popupItems/{popupItemId}/updatePrice`
+**Endpoint:** `/api/v1/houses/{houseId}/rooms/{roomId}/items/{itemId}/multipleChoices/{multipleChoiceId}/popupItems/{popupItemId}/updatePrice`
 
 **Description:** Update popup item pricing (currnetly only used for the "Led Strip Lighting")
 
