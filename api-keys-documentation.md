@@ -653,7 +653,7 @@ RESPONSE: API Key Error
 
 ---
 
-## **Update Item Choice pricing**
+## **Update Item Choice Customer Input**
 
 **Endpoint:** `/api/v1/houses/{houseId}/rooms/{roomId}/items/{itemId}/itemChoices/{itemChoiceId}/updateCustomerInput`
 
