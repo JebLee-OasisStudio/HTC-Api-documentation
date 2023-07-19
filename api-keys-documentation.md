@@ -655,7 +655,7 @@ RESPONSE: API Key Error
 
 ## **Update Item Choice pricing**
 
-**Endpoint:** `/api/v1/houses/{houseId}/rooms/{roomId}/items/{itemId}/itemChoices/{itemChoiceId}/updatePrice`
+**Endpoint:** `/api/v1/houses/{houseId}/rooms/{roomId}/items/{itemId}/itemChoices/{itemChoiceId}/updateCustomerInput`
 
 **Description:** Update Item Choice pricing (most of the items can be found in the "Item Choices")
 
@@ -681,16 +681,20 @@ RESPONSE: API Key Error
 | Name    | Type      | Description |
 | ------- | --------- | ----------- |
 | `customer_input_price` | `integer` | Item price  |
+| `customer_input_name` | `string` | Item name  |
+| `customer_input_description` | `string` | Item description  |
 
 **Example request:**
 
 ```javascript
-PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/109/rooms/637/items/3704/itemChoices/82217/updatePrice
+PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/109/rooms/637/items/3704/itemChoices/82217/updateCustomerInput
 HOST: [domain](https://htc.eyesiteview.uk/htcpublic)
 Authorization: your-api-key
 
 {
-    "customer_input_price": 100
+    "customer_input_price": 9888,
+    "customer_input_name": "HC120",
+    "customer_input_description": "Gold Long bar handle"
 }
 ```
 
@@ -708,6 +712,8 @@ RESPONSE: 200 OK
         "reference": "6",
         "price": 9888,
         "customer_input_price": 9888,
+        "customer_input_name": "HC120",
+        "customer_input_description": "Gold Long bar handle",
         "thumbnail_image_id": 147192,
         "overlay_image_id": 79763,
         "item_id": 3704,
