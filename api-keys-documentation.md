@@ -579,7 +579,7 @@ RESPONSE: API Key Error
 
 **Example image:**
 
-<img src="https://github.com/JebLee-OasisStudio/HTC-Api-documentation/blob/abc1e84b31d6716aab60fbaec60bdcf7f3e91cce/wardrobe.PNG" style="zoom: 70%;" />
+<img src="https://github.com/JebLee-OasisStudio/HTC-Api-documentation/blob/main/wardrobe.PNG?raw=true" style="zoom: 70%;" />
 
 **Method:** `PUT`
 
