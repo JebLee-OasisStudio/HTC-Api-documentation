@@ -571,6 +571,95 @@ RESPONSE: API Key Error
 ```
 ---
 
+## **Update Category pricing**
+
+**Endpoint:** `/api/v1/houses/{houseId}/rooms/{roomId}/items/{itemId}/categories/{categoryId}/updatePrice`
+
+**Description:** Update wardrobe pricing
+
+**Example image:**
+
+<img src="https://github.com/JebLee-OasisStudio/HTC-Api-documentation/blob/main/category_pricing.PNG?raw=true" alt="category_pricing.png" style="zoom: 70%;" />
+
+**Method:** `PUT`
+
+**Path parameters:**
+
+| Name                   | Type      | Description            |
+| ---------------------- | --------- | ---------------------- |
+| `houseId`              | `integer` | House ID               |
+| `roomId`               | `integer` | Room ID                |
+| `itemId`               | `integer` | Item ID                |
+| `categoryId`           | `integer` | Category ID            |
+
+**Query parameters:** None
+
+**Body parameters:**
+
+| Name    | Type      | Description |
+| ------- | --------- | ----------- |
+| `customer_input_price` | `integer` | Item price  |
+
+**Example request:**
+
+```javascript
+PUT https://htc.eyesiteview.uk/htcpublic/api/v1/houses/37/rooms/122/items/6081/categories/8967/updatePrice
+HOST: [domain](https://htc.eyesiteview.uk/htcpublic)
+Content-Type: application/json
+Authorization: your-api-key
+
+{
+    "customer_input_price": 333333
+}
+```
+
+**Example response:**
+
+RESPONSE: 200 OK
+
+```json
+{
+    "valid": true,
+    "data": {
+        "id": 8967,
+        "name": "Kensington",
+        "description": null,
+        "category_collection_id": null,
+        "price": 333333,
+        "customer_input_price": 333333,
+        "reference": null,
+        "primary": 1,
+        "option": 1,
+        "default": 0,
+        "created_at": "2023-09-06T10:26:35.000000Z",
+        "updated_at": "2023-09-08T10:38:07.000000Z",
+        "order_index": 0,
+        "pivot": {
+            "item_id": 6081,
+            "category_id": 8967
+        }
+    }
+}
+```
+
+RESPONSE: 404 Not Found
+
+```json
+{
+    "valid": false,
+    "error": "No query results for model "
+}
+```
+
+RESPONSE: API Key Error
+
+```json
+{
+    "message": "Unauthorized"
+}
+```
+---
+
 ## **Update multiple choice options pricing**
 
 **Endpoint:** `/api/v1/houses/{houseId}/rooms/{roomId}/items/{itemId}/multipleChoices/{multipleChoiceId}/multipleChoiceOptions/{multipleChoiceOptionId}/updatePrice`
