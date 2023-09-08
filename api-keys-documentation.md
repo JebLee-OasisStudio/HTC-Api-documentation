@@ -571,7 +571,7 @@ RESPONSE: API Key Error
 ```
 ---
 
-## **Update Category pricing**
+## **Update wardrobe pricing**
 
 **Endpoint:** `/api/v1/houses/{houseId}/rooms/{roomId}/items/{itemId}/categories/{categoryId}/updatePrice`
 
